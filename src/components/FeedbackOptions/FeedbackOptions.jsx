@@ -5,7 +5,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   const stateArr = Object.keys(options);
 
   return (
-    <div>
+    <div className={css.btns}>
       {stateArr.map(option => (
         <button
           className={css.button}

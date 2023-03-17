@@ -1,5 +1,8 @@
-.message {
-    color: brown;
+.feedback {
     display: flex;
     justify-content: space-around;
+    font-weight: 700;
+    font-size: 30px;
+
+    color: black;
 }
